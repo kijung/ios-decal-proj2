@@ -16,6 +16,41 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        /*
+        let appdelegate = UIApplication.shared.delegate as! AppDelegate
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let homeViewController = mainStoryboard.instantiateViewController(withIdentifier: "StartScreenViewController") as! StartScreenViewController
+        let nav = UINavigationController(rootViewController: homeViewController)
+        appdelegate.window!.rootViewController = nav
+        */
+        /*
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        var startScreenViewController: StartScreenViewController = mainStoryboard.instantiateViewController(withIdentifier: "StartScreenViewController") as! StartScreenViewController
+        
+        self.window?.rootViewController = startScreenViewController
+        
+        self.window?.makeKeyAndVisible()
+        
+        return true
+        */
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let nav = UINavigationController()
+        /*
+        // MARK: Style Navigation Bar
+        nav.navigationBar.barTintColor = UIColor(rgb: 0x3e7aab)
+        nav.navigationBar.tintColor = UIColor.white
+        let navigationBarAppearace = UINavigationBar.appearance()
+        let font = UIFont(name: "Helvetica-Bold", size: 16)
+        if let font = font {
+            navigationBarAppearace.titleTextAttributes = [NSFontAttributeName : font, NSForegroundColorAttributeName : UIColor.white];
+        }
+        */
+        // MARK: Launch the Main View
+        let mainViewController = StartScreenViewController()
+        nav.viewControllers = [mainViewController]
+        self.window?.rootViewController = nav
+        //self.window?.makeKeyAndVisible()
         return true
     }
 

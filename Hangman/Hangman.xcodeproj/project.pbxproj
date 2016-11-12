@@ -24,6 +24,7 @@
 		ECC22F7C1C891A6700749E58 /* phrases.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECC22F7B1C891A6700749E58 /* phrases.plist */; };
 		ECC22F7E1C891CF800749E58 /* HangmanPhrases.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC22F7D1C891CF800749E58 /* HangmanPhrases.swift */; };
 		ECC94FB81C891E31006B4A98 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC94FB71C891E31006B4A98 /* StartScreenViewController.swift */; };
+		F902110D1DD5C269005A6B30 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902110C1DD5C269005A6B30 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		ECC22F7B1C891A6700749E58 /* phrases.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = phrases.plist; sourceTree = "<group>"; };
 		ECC22F7D1C891CF800749E58 /* HangmanPhrases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangmanPhrases.swift; sourceTree = "<group>"; };
 		ECC94FB71C891E31006B4A98 /* StartScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		F902110C1DD5C269005A6B30 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			children = (
 				ECC22F7D1C891CF800749E58 /* HangmanPhrases.swift */,
 				ECC22F7B1C891A6700749E58 /* phrases.plist */,
+				F902110C1DD5C269005A6B30 /* CustomButton.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				ECC22F431C89177600749E58 /* AppDelegate.swift in Sources */,
 				ECC22F7E1C891CF800749E58 /* HangmanPhrases.swift in Sources */,
 				ECC94FB81C891E31006B4A98 /* StartScreenViewController.swift in Sources */,
+				F902110D1DD5C269005A6B30 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
